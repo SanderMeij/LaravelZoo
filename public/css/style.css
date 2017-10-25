@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #cccccc;
+    font-family: "Montserrat";
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: #444444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.navbar li {
+    display: inline-block;
+    min-width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    border-bottom: 1px solid #888888;
+    padding-left: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.navbar a:hover {
+    background-color: #3ba06d;
+}
+
+.navbar a.active {
+    background-color: #ffffff;
+    color: #444;
+    cursor: default;
+}
+
+.navbar li.left {
+    float: left;
+}
+
+.navbar li.right {
+    float: right;
+}
+
+.navbar p {
+    margin: 0;
+    color: #3ba06d;
+}
+
+.navbar p.negative {
+    color: #9c3a3a;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content button {
+    border: none;
+    font: inherit;
+    float: right;
+}
+
+.content a, .content button {
+    background: #cd742d;
+    text-decoration: none;
+    color: #393939;
+    display: block;
+    transition: .3s background-color;
+    padding: 24px;
+    margin: 24px;
+    font-size: 18px;
+}
+
+.content a:hover, .content button:hover {
+    background: #fb9135;
+    cursor: pointer;
+}
+
+.content table {
+    width: 100%;
+    color: #393939;
+}
+
+.content table .unavailable {
+    color: #999999
+}
+
+.content tr {
+    transition: .3s background-color;
+}
+
+.content th, .content td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content th {
+    color: #393939;
+}
+
+.content tr:hover:not(.unavailable) {
+    background-color: #cd742d;
+    cursor: pointer;
+}
+
+select {
+    font: inherit;
+    background: #dfdfdf;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    text-align-last:center;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+}
+
+input {
+    font: inherit;
+    background: #dfdfdf;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    text-align-last:center;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #3ba06d;
+    text-align: center;
+}
